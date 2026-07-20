@@ -11,7 +11,7 @@
 <br>
 
 🇩🇪🇮🇪 **Open to AI/ML Engineer roles in Germany and Ireland. Relocation ready.**<br>
-<sub>Degree recognised in anabin (institution H+, degree "Entspricht") · eligible for the <b>EU Blue Card (§18g)</b> and the <b>Irish Critical Skills Employment Permit</b>. Hiring me is routine paperwork, not a sponsorship project.</sub>
+<sub>Degree recognised in anabin (institution H+, degree "Entspricht") · eligible for the <b>EU Blue Card</b> and the <b>Irish Critical Skills Employment Permit</b>. Hiring me is routine paperwork, not a sponsorship project.</sub>
 
 <br>
 
