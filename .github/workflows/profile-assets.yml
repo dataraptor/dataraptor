@@ -18,6 +18,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # The card step must run BEFORE the snake step: Platane/snk is a Docker action
+      # that creates dist/ as root, which the runner-user Python step cannot write into.
+      - name: Generate stats, language, and quarterly contribution cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: python3 .github/scripts/profile_cards.py
+
       - name: Generate snake animations
         uses: Platane/snk@v3
         with:
@@ -25,12 +33,6 @@ jobs:
           outputs: |
             dist/github-snake.svg?palette=github-light
             dist/github-snake-dark.svg?palette=github-dark
-
-      - name: Generate stats, language, and quarterly contribution cards
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_LOGIN: ${{ github.repository_owner }}
-        run: python3 .github/scripts/profile_cards.py
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4

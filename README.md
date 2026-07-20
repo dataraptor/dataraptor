@@ -83,16 +83,12 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dataraptor/dataraptor/output/top-langs-dark.svg" />
   <img src="https://raw.githubusercontent.com/dataraptor/dataraptor/output/top-langs.svg" alt="Most used languages" />
 </picture>
-
-<br><br>
-
+<br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=dataraptor&theme=github-dark-blue&hide_border=true&background=00000000" />
-  <img src="https://streak-stats.demolab.com?user=dataraptor&hide_border=true&background=00000000" alt="GitHub streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dataraptor/dataraptor/output/streak-dark.svg" />
+  <img src="https://raw.githubusercontent.com/dataraptor/dataraptor/output/streak.svg" alt="Contribution streak statistics" />
 </picture>
-
-<br><br>
-
+<br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dataraptor/dataraptor/output/contributions-quarterly-dark.svg" />
   <img src="https://raw.githubusercontent.com/dataraptor/dataraptor/output/contributions-quarterly.svg" alt="Contributions per quarter over the last five years" />

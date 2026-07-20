@@ -4,6 +4,7 @@ Outputs:
   contributions-quarterly[-dark].svg  - bar chart, last 20 quarters
   stats[-dark].svg                    - stat tiles (stars, followers, contributions, ...)
   top-langs[-dark].svg                - language share bar + legend
+  streak[-dark].svg                   - total / this month / longest streak
 
 Contribution counts come from GitHub's public per-day contributions endpoint
 (no auth needed — same source the snake action uses). Stars/followers/languages
@@ -28,8 +29,18 @@ QUARTERS = 20  # 5 years
 def http_get(url: str, headers: dict | None = None) -> str:
     h = {"User-Agent": "dataraptor-profile-cards"}
     h.update(headers or {})
-    with urlopen(Request(url, headers=h)) as resp:
-        return resp.read().decode()
+    last_err = None
+    for attempt in range(3):
+        try:
+            with urlopen(Request(url, headers=h), timeout=30) as resp:
+                return resp.read().decode()
+        except HTTPError:
+            raise
+        except OSError as e:  # timeouts, connection resets
+            last_err = e
+            import time
+            time.sleep(2 * (attempt + 1))
+    raise last_err
 
 
 def api(path: str, required: bool = True):
@@ -75,8 +86,12 @@ last_idx = quarter_index(today)
 first_idx = last_idx - (QUARTERS - 1)
 start_year = first_idx // 4
 
+# Profile first: account creation bounds the full-history scrape for the streak card.
+profile = api(f"/users/{LOGIN}")
+created = dt.date.fromisoformat(profile["created_at"][:10])
+
 day_counts: dict[dt.date, int] = {}
-for year in range(start_year, today.year + 1):
+for year in range(min(start_year, created.year), today.year + 1):
     for iso, n in calendar_counts(year).items():
         day = dt.date.fromisoformat(iso)
         if day <= today:
@@ -93,10 +108,25 @@ for idx in range(first_idx, last_idx + 1):
 total_5y = sum(q["count"] for q in quarters)
 past_year = sum(n for day, n in day_counts.items() if day > today - dt.timedelta(days=365))
 peak = max(quarters, key=lambda q: q["count"])
+total_all = sum(day_counts.values())
 
-# ── REST: profile, stars, languages ────────────────────────────────────────
+longest, longest_range, run, run_start = 0, None, 0, None
+prev = None
+for day in sorted(d for d, n in day_counts.items() if n > 0):
+    if prev is not None and (day - prev).days == 1:
+        run += 1
+    else:
+        run, run_start = 1, day
+    if run > longest:
+        longest, longest_range = run, (run_start, day)
+    prev = day
 
-profile = api(f"/users/{LOGIN}")
+month_days = [d for d in day_counts if d.year == today.year and d.month == today.month]
+month_contrib = sum(day_counts[d] for d in month_days)
+month_active = sum(1 for d in month_days if day_counts[d] > 0)
+
+# ── REST: stars, languages ─────────────────────────────────────────────────
+
 repos, page = [], 1
 while True:
     batch = api(f"/users/{LOGIN}/repos?per_page=100&page={page}&type=owner")
@@ -316,6 +346,52 @@ def render_langs(theme: dict) -> str:
     return "\n".join(parts)
 
 
+# ── Streak card (wide, three columns) ──────────────────────────────────────
+
+def fmt_day(d: dt.date) -> str:
+    return f"{d.strftime('%b')} {d.day}"
+
+
+def render_streak(theme: dict) -> str:
+    SW, SH = 880, 170
+    if longest_range:
+        ls, le = longest_range
+        longest_sub = f"{fmt_day(ls)} – {fmt_day(le)}, {le.year}"
+    else:
+        longest_sub = "—"
+    cols = [
+        (f"{total_all:,}", "total contributions", f"{fmt_day(created)}, {created.year} – present"),
+        (f"{month_active}", f"days active · {today.strftime('%B')}",
+         f"{month_contrib:,} contributions this month"),
+        (f"{longest:,}", "longest streak · days", longest_sub),
+    ]
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{SW}" height="{SH}" '
+        f'viewBox="0 0 {SW} {SH}" role="img" aria-label="Contribution streak statistics">',
+        f'<rect x="0.5" y="0.5" width="{SW - 1}" height="{SH - 1}" rx="6" fill="none" '
+        f'stroke="{theme["border"]}" stroke-width="1"/>',
+    ]
+    for i, x in enumerate((SW / 3, SW * 2 / 3)):
+        parts.append(f'<line x1="{x:.1f}" y1="30" x2="{x:.1f}" y2="{SH - 30}" '
+                     f'stroke="{theme["border"]}" stroke-width="1"/>')
+    for i, (value, label, sub) in enumerate(cols):
+        cx = SW / 6 + i * SW / 3
+        parts.append(
+            f'<text x="{cx:.1f}" y="76" text-anchor="middle" font-family="{FONT}" '
+            f'font-size="30" font-weight="600" fill="{theme["ink"]}">{value}</text>'
+        )
+        parts.append(
+            f'<text x="{cx:.1f}" y="101" text-anchor="middle" font-family="{FONT}" '
+            f'font-size="12" font-weight="600" fill="{theme["secondary"]}">{esc(label)}</text>'
+        )
+        parts.append(
+            f'<text x="{cx:.1f}" y="121" text-anchor="middle" font-family="{FONT}" '
+            f'font-size="10" fill="{theme["muted"]}">{esc(sub)}</text>'
+        )
+    parts.append("</svg>")
+    return "\n".join(parts)
+
+
 # ── Write everything ───────────────────────────────────────────────────────
 
 os.makedirs(OUT_DIR, exist_ok=True)
@@ -325,6 +401,7 @@ for mode, suffix in (("light", ""), ("dark", "-dark")):
         (f"contributions-quarterly{suffix}.svg", render_chart(theme)),
         (f"stats{suffix}.svg", render_stats(theme)),
         (f"top-langs{suffix}.svg", render_langs(theme)),
+        (f"streak{suffix}.svg", render_streak(theme)),
     ):
         path = os.path.join(OUT_DIR, name)
         with open(path, "w", encoding="utf-8") as f:
