@@ -3,15 +3,15 @@
 <!-- ── Header ─────────────────────────────────────────────────────────── -->
 
 <a href="https://www.shamimahamed.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=900&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Shamim+Ahamed+%F0%9F%91%8B;AI+Architect+%C2%B7+Research+Engineer;Production+AI+you+can+actually+trust." alt="Shamim Ahamed — AI Architect · Research Engineer" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=900&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Shamim+Ahamed+%F0%9F%91%8B;AI+Architect+for+production+LLM+systems;Production+AI+you+can+actually+trust." alt="Shamim Ahamed, AI Architect for production LLM systems" />
 </a>
 
-**I design and ship LLM systems that are compliant, observable, and *provably* reliable —<br>with the evaluation rigor most teams skip. Healthcare and other high-trust domains are my home turf.**
+**I design and ship LLM systems that are compliant, observable, and *provably* reliable,<br>with the evaluation rigor most teams skip. Healthcare and other high-trust domains are my home turf.**
 
 <br>
 
-🇩🇪🇮🇪 **Open to AI/ML Engineer & Research Engineer roles in Germany and Ireland — relocation-ready.**<br>
-<sub>Degree recognised in anabin (institution H+, degree "Entspricht") · eligible for the <b>EU Blue Card (§18g)</b> and the <b>Irish Critical Skills Employment Permit</b> — hiring me is routine paperwork, not a sponsorship project.</sub>
+🇩🇪🇮🇪 **Open to AI/ML Engineer roles in Germany and Ireland. Relocation ready.**<br>
+<sub>Degree recognised in anabin (institution H+, degree "Entspricht") · eligible for the <b>EU Blue Card (§18g)</b> and the <b>Irish Critical Skills Employment Permit</b>. Hiring me is routine paperwork, not a sponsorship project.</sub>
 
 <br>
 
@@ -32,12 +32,11 @@
 
 ## 🧭 The short version
 
-- 🏥 **AI Engineer @ FRQ Technologies (USA, remote)** — **1,500+ billed hours** shipping HIPAA-compliant, multi-agent clinical AI, in production since Dec 2023, where a wrong answer isn't a bug, it's a liability
-- 🌍 **3 years of remote work for US companies** — English-first, async, full US-timezone overlap, Western engineering standards
-- 🚢 Shipped & published **[SuSastho.AI](https://doi.org/10.1016/j.imu.2025.101720)** — a multimodal medical copilot for adolescents (Elsevier, 2025)
-- 🥇 **Kaggle Gold medal — top 2%** (11th of 651, Google-sponsored), plus a Silver and a Bronze
-- 📄 **10+ peer-reviewed publications** (IEEE ICDM · AAAI · Elsevier · BMC), including first-author work on **LLM-as-a-judge evaluation** and **health-triage benchmarking** — I can prove my systems are reliable, not just claim it
-- 🔬 Research Engineer @ **AIMS Lab, United International University**
+- 🏥 **AI Engineer @ FRQ Technologies (USA, remote)**: 3 years of remote work for US companies, currently shipping HIPAA-compliant, multi-agent clinical AI in production since Dec 2023, where a wrong answer isn't a bug, it's a liability
+- 🚢 Shipped & published **[SuSastho.AI](https://doi.org/10.1016/j.imu.2025.101720)**: a multimodal medical copilot for adolescents (Elsevier, 2025)
+- 🥇 **Kaggle Gold medal, top 2%** (11th of 651, Google-sponsored), plus a Silver and a Bronze
+- 📄 **10+ peer-reviewed publications** (IEEE ICDM · AAAI · Elsevier · BMC), including first-author work on **LLM-as-a-judge evaluation** and **health-triage benchmarking**. I can prove my systems are reliable, not just claim it
+- 🔬 **AIMS Lab, United International University**: applied AI research in digital health
 
 > *"Shipping the model is the easy 20%. Proving it's grounded, compliant, and cost-aware is the other 80%."*
 
@@ -46,7 +45,7 @@
 | | |
 |---|---|
 | 🏥 **Compliant clinical & healthcare AI** | Agentic systems with safety gates, audit trails, and a real data-boundary story |
-| 📚 **Evaluated, observable RAG** | Retrieval that cites its sources and is measured for faithfulness — not vibes |
+| 📚 **Evaluated, observable RAG** | Retrieval that cites its sources and is measured for faithfulness, not vibes |
 | ⚖️ **LLM evaluation & reliability frameworks** | Gold sets, distributional reporting, and meta-eval that scores the evaluator itself |
 | 💸 **Cost & latency optimization** | Routing, caching, and model cascades that cut spend without trading away quality |
 
@@ -109,10 +108,10 @@
 
 ## 📄 Selected research
 
-- **A Benchmark and Optimization Framework for ML and LLM-Based Health Triage** — *IEEE ICDM Workshops 2025* (presented, Washington D.C.)
-- **SuSastho.AI: A Multimodal Medical Copilot for Adolescents Using Evidence-Based Medicine and LLMs** — *first author* · Informatics in Medicine Unlocked (Elsevier), 2025 · [DOI](https://doi.org/10.1016/j.imu.2025.101720)
-- **Integrating AI-Driven Triage into Digital Pharmacy Systems for Rational Antibiotic Use in Low-Resource Settings** — *AAAI 2026 Bridge on AI for Medicine & Healthcare* (Singapore)
-- **AI-Based Risk Assessment Tools for Sexual, Reproductive and Mental Health: A Systematic Review** — *BMC Medical Informatics and Decision Making*, 2025
+- **A Benchmark and Optimization Framework for ML and LLM-Based Health Triage** · *IEEE ICDM Workshops 2025* (presented, Washington D.C.)
+- **SuSastho.AI: A Multimodal Medical Copilot for Adolescents Using Evidence-Based Medicine and LLMs** · *first author* · Informatics in Medicine Unlocked (Elsevier), 2025 · [DOI](https://doi.org/10.1016/j.imu.2025.101720)
+- **Integrating AI-Driven Triage into Digital Pharmacy Systems for Rational Antibiotic Use in Low-Resource Settings** · *AAAI 2026 Bridge on AI for Medicine & Healthcare* (Singapore)
+- **AI-Based Risk Assessment Tools for Sexual, Reproductive and Mental Health: A Systematic Review** · *BMC Medical Informatics and Decision Making*, 2025
 
 <div align="center"><a href="https://scholar.google.com/citations?user=5noF5csAAAAJ&hl=en"><b>See all publications on Google Scholar →</b></a></div>
 
@@ -120,9 +119,9 @@
 
 <div align="center">
 
-**Hiring for AI/ML in Germany or Ireland?** I'm relocation-ready, and the visa side is already solved from my end.<br>
+**Hiring for AI/ML in Germany or Ireland?** I'm relocation ready, and the visa side is already solved from my end.<br>
 **Or have a high-trust AI problem** where being right matters more than being first?<br>
-Send a few lines to **[shamim.aiexpert@gmail.com](mailto:shamim.aiexpert@gmail.com)** — I'll tell you honestly whether I'm the right fit.
+Send a few lines to **[shamim.aiexpert@gmail.com](mailto:shamim.aiexpert@gmail.com)**. I'll tell you honestly whether I'm the right fit.
 
 <sub>⭐ Based in Bangladesh · 3 years working remotely with US teams · open to relocating to Berlin / Munich / Dublin.</sub>
 

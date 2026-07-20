@@ -107,6 +107,7 @@ for idx in range(first_idx, last_idx + 1):
     quarters.append({"year": year, "q": q0 + 1, "count": q_counts.get(idx, 0)})
 total_5y = sum(q["count"] for q in quarters)
 past_year = sum(n for day, n in day_counts.items() if day > today - dt.timedelta(days=365))
+active_year = sum(1 for day, n in day_counts.items() if n > 0 and day > today - dt.timedelta(days=365))
 peak = max(quarters, key=lambda q: q["count"])
 total_all = sum(day_counts.values())
 
@@ -134,7 +135,6 @@ while True:
     if len(batch) < 100:
         break
     page += 1
-stars = sum(r["stargazers_count"] for r in repos)
 
 lang_bytes: dict[str, int] = {}
 lang_ok = 0
@@ -294,7 +294,7 @@ def card_frame(theme: dict, title: str, aria: str) -> list[str]:
 
 def render_stats(theme: dict) -> str:
     tiles = [
-        ("total stars", f"{stars:,}"),
+        ("days active · past year", f"{active_year:,}"),
         ("followers", f"{profile['followers']:,}"),
         ("public repos", f"{profile['public_repos']:,}"),
         ("contributions · past year", f"{past_year:,}"),
@@ -356,11 +356,11 @@ def render_streak(theme: dict) -> str:
     SW, SH = 880, 170
     if longest_range:
         ls, le = longest_range
-        longest_sub = f"{fmt_day(ls)} – {fmt_day(le)}, {le.year}"
+        longest_sub = f"{fmt_day(ls)} to {fmt_day(le)}, {le.year}"
     else:
-        longest_sub = "—"
+        longest_sub = "no streak yet"
     cols = [
-        (f"{total_all:,}", "total contributions", f"{fmt_day(created)}, {created.year} – present"),
+        (f"{total_all:,}", "total contributions", f"since {fmt_day(created)}, {created.year}"),
         (f"{month_active}", f"days active · {today.strftime('%B')}",
          f"{month_contrib:,} contributions this month"),
         (f"{longest:,}", "longest streak · days", longest_sub),
@@ -407,5 +407,5 @@ for mode, suffix in (("light", ""), ("dark", "-dark")):
         with open(path, "w", encoding="utf-8") as f:
             f.write(svg)
         print(f"wrote {path}")
-print(f"total_5y={total_5y:,} past_year={past_year:,} stars={stars} "
+print(f"total_5y={total_5y:,} past_year={past_year:,} active_year={active_year} "
       f"peak=Q{peak['q']} {peak['year']} ({peak['count']:,}) langs={langs}")
