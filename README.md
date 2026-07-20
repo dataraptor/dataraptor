@@ -10,6 +10,11 @@
 
 <br>
 
+🇩🇪🇮🇪 **Open to AI/ML Engineer & Research Engineer roles in Germany and Ireland — relocation-ready.**<br>
+<sub>Degree recognised in anabin (institution H+, degree "Entspricht") · eligible for the <b>EU Blue Card (§18g)</b> and the <b>Irish Critical Skills Employment Permit</b> — hiring me is routine paperwork, not a sponsorship project.</sub>
+
+<br>
+
 <!-- ── Social / contact badges ────────────────────────────────────────── -->
 
 <a href="https://www.shamimahamed.com"><img src="https://img.shields.io/badge/Portfolio-shamimahamed.com-2F81F7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
@@ -27,10 +32,11 @@
 
 ## 🧭 The short version
 
-- 🏥 **1,500+ billed hours** building HIPAA-compliant, multi-agent clinical AI for a US healthcare company — where a wrong answer isn't a bug, it's a liability
-- 📄 **10+ peer-reviewed publications** (IEEE ICDM · AAAI · Elsevier · BMC), including first-author work on **LLM-as-a-judge evaluation** and **health-triage benchmarking**
+- 🏥 **AI Engineer @ FRQ Technologies (USA, remote)** — **1,500+ billed hours** shipping HIPAA-compliant, multi-agent clinical AI, in production since Dec 2023, where a wrong answer isn't a bug, it's a liability
+- 🌍 **3 years of remote work for US companies** — English-first, async, full US-timezone overlap, Western engineering standards
 - 🚢 Shipped & published **[SuSastho.AI](https://doi.org/10.1016/j.imu.2025.101720)** — a multimodal medical copilot for adolescents (Elsevier, 2025)
 - 🥇 **Kaggle Gold medal — top 2%** (11th of 651, Google-sponsored), plus a Silver and a Bronze
+- 📄 **10+ peer-reviewed publications** (IEEE ICDM · AAAI · Elsevier · BMC), including first-author work on **LLM-as-a-judge evaluation** and **health-triage benchmarking** — I can prove my systems are reliable, not just claim it
 - 🔬 Research Engineer @ **AIMS Lab, United International University**
 
 > *"Shipping the model is the easy 20%. Proving it's grounded, compliant, and cost-aware is the other 80%."*
@@ -65,15 +71,6 @@
 
 </div>
 
-## 📄 Selected research
-
-- **A Benchmark and Optimization Framework for ML and LLM-Based Health Triage** — *IEEE ICDM Workshops 2025* (presented, Washington D.C.)
-- **SuSastho.AI: A Multimodal Medical Copilot for Adolescents Using Evidence-Based Medicine and LLMs** — *first author* · Informatics in Medicine Unlocked (Elsevier), 2025 · [DOI](https://doi.org/10.1016/j.imu.2025.101720)
-- **Integrating AI-Driven Triage into Digital Pharmacy Systems for Rational Antibiotic Use in Low-Resource Settings** — *AAAI 2026 Bridge on AI for Medicine & Healthcare* (Singapore)
-- **AI-Based Risk Assessment Tools for Sexual, Reproductive and Mental Health: A Systematic Review** — *BMC Medical Informatics and Decision Making*, 2025
-
-<div align="center"><a href="https://scholar.google.com/citations?user=5noF5csAAAAJ&hl=en"><b>See all publications on Google Scholar →</b></a></div>
-
 ## 📊 GitHub stats
 
 <div align="center">
@@ -97,8 +94,8 @@
 <br><br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=dataraptor&theme=github-compact&hide_border=true&bg_color=00000000&color=8b949e&line=2f81f7&point=58a6ff" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dataraptor&theme=github-light&hide_border=true&bg_color=00000000&line=2f81f7&point=0969da" alt="Contribution graph" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dataraptor/dataraptor/output/contributions-quarterly-dark.svg" />
+  <img src="https://raw.githubusercontent.com/dataraptor/dataraptor/output/contributions-quarterly.svg" alt="Contributions per quarter over the last five years" />
 </picture>
 
 <br><br>
@@ -123,13 +120,23 @@
 
 </div>
 
+## 📄 Selected research
+
+- **A Benchmark and Optimization Framework for ML and LLM-Based Health Triage** — *IEEE ICDM Workshops 2025* (presented, Washington D.C.)
+- **SuSastho.AI: A Multimodal Medical Copilot for Adolescents Using Evidence-Based Medicine and LLMs** — *first author* · Informatics in Medicine Unlocked (Elsevier), 2025 · [DOI](https://doi.org/10.1016/j.imu.2025.101720)
+- **Integrating AI-Driven Triage into Digital Pharmacy Systems for Rational Antibiotic Use in Low-Resource Settings** — *AAAI 2026 Bridge on AI for Medicine & Healthcare* (Singapore)
+- **AI-Based Risk Assessment Tools for Sexual, Reproductive and Mental Health: A Systematic Review** — *BMC Medical Informatics and Decision Making*, 2025
+
+<div align="center"><a href="https://scholar.google.com/citations?user=5noF5csAAAAJ&hl=en"><b>See all publications on Google Scholar →</b></a></div>
+
 ---
 
 <div align="center">
 
-**Have a high-trust AI problem where being right matters more than being first?**<br>
+**Hiring for AI/ML in Germany or Ireland?** I'm relocation-ready, and the visa side is already solved from my end.<br>
+**Or have a high-trust AI problem** where being right matters more than being first?<br>
 Send a few lines to **[shamim.aiexpert@gmail.com](mailto:shamim.aiexpert@gmail.com)** — I'll tell you honestly whether I'm the right fit.
 
-<sub>⭐ From Bangladesh — working daily with US-based teams.</sub>
+<sub>⭐ Based in Bangladesh · 3 years working remotely with US teams · open to relocating to Berlin / Munich / Dublin.</sub>
 
 </div>
