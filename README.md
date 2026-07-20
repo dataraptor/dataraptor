@@ -76,12 +76,12 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=dataraptor&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true&bg_color=00000000" />
-  <img src="https://github-readme-stats.vercel.app/api?username=dataraptor&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000" alt="GitHub stats" height="170" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dataraptor/dataraptor/output/stats-dark.svg" />
+  <img src="https://raw.githubusercontent.com/dataraptor/dataraptor/output/stats.svg" alt="GitHub stats" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=dataraptor&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=00000000" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dataraptor&layout=compact&langs_count=8&hide_border=true&bg_color=00000000" alt="Top languages" height="170" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dataraptor/dataraptor/output/top-langs-dark.svg" />
+  <img src="https://raw.githubusercontent.com/dataraptor/dataraptor/output/top-langs.svg" alt="Most used languages" />
 </picture>
 
 <br><br>
@@ -97,15 +97,6 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dataraptor/dataraptor/output/contributions-quarterly-dark.svg" />
   <img src="https://raw.githubusercontent.com/dataraptor/dataraptor/output/contributions-quarterly.svg" alt="Contributions per quarter over the last five years" />
 </picture>
-
-<br><br>
-
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=dataraptor&theme=darkhub&no-frame=true&column=7&margin-w=8" />
-    <img src="https://github-profile-trophy.vercel.app/?username=dataraptor&theme=flat&no-frame=true&column=7&margin-w=8" alt="GitHub trophies" />
-  </picture>
-</a>
 
 </div>
 
