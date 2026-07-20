@@ -21,7 +21,6 @@
 <a href="https://www.linkedin.com/in/shamimah/"><img src="https://img.shields.io/badge/LinkedIn-shamimah-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://scholar.google.com/citations?user=5noF5csAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
 <a href="https://www.kaggle.com/sahamed"><img src="https://img.shields.io/badge/Kaggle-sahamed-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
-<a href="https://twitter.com/_sahamed"><img src="https://img.shields.io/badge/X-@__sahamed-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)" /></a>
 <a href="mailto:shamim.aiexpert@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 <img src="https://komarev.com/ghpvc/?username=dataraptor&style=for-the-badge&color=2F81F7&label=Profile+Views" alt="Profile views" />
