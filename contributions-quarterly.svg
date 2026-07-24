@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" role="img" aria-label="Contributions per quarter over the last five years">
+<text x="56" y="24" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#1f2328">3,657 contributions in the last 5 years</text>
+<text x="56" y="41" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="11" fill="#59636e">per quarter · * current quarter, in progress</text>
+<text x="48" y="239.5" text-anchor="end" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#818b98">0</text>
+<line x1="56" y1="190.0" x2="860" y2="190.0" stroke="#d8dee4" stroke-width="1"/>
+<text x="48" y="193.5" text-anchor="end" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#818b98">200</text>
+<line x1="56" y1="144.0" x2="860" y2="144.0" stroke="#d8dee4" stroke-width="1"/>
+<text x="48" y="147.5" text-anchor="end" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#818b98">400</text>
+<line x1="56" y1="98.0" x2="860" y2="98.0" stroke="#d8dee4" stroke-width="1"/>
+<text x="48" y="101.5" text-anchor="end" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#818b98">600</text>
+<line x1="56" y1="52.0" x2="860" y2="52.0" stroke="#d8dee4" stroke-width="1"/>
+<text x="48" y="55.5" text-anchor="end" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#818b98">800</text>
+<line x1="56" y1="236" x2="860" y2="236" stroke="#afb8c1" stroke-width="1"/>
+<path d="M64.1,236.0 L64.1,226.7 Q64.1,222.7 68.1,222.7 L84.1,222.7 Q88.1,222.7 88.1,226.7 L88.1,236.0 Z" fill="#2a78d6"/>
+<text x="76.1" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q4</text>
+<path d="M104.3,236.0 L104.3,228.7 Q104.3,224.7 108.3,224.7 L124.3,224.7 Q128.3,224.7 128.3,228.7 L128.3,236.0 Z" fill="#2a78d6"/>
+<text x="116.3" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q1</text>
+<path d="M144.5,236.0 L144.5,236.0 Q144.5,233.7 146.8,233.7 L166.2,233.7 Q168.5,233.7 168.5,236.0 L168.5,236.0 Z" fill="#2a78d6"/>
+<text x="156.5" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q2</text>
+<path d="M184.7,236.0 L184.7,232.2 Q184.7,228.2 188.7,228.2 L204.7,228.2 Q208.7,228.2 208.7,232.2 L208.7,236.0 Z" fill="#2a78d6"/>
+<text x="196.7" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q3</text>
+<path d="M224.9,236.0 L224.9,185.3 Q224.9,181.3 228.9,181.3 L244.9,181.3 Q248.9,181.3 248.9,185.3 L248.9,236.0 Z" fill="#2a78d6"/>
+<text x="236.9" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q4</text>
+<path d="M265.1,236.0 L265.1,216.8 Q265.1,212.8 269.1,212.8 L285.1,212.8 Q289.1,212.8 289.1,216.8 L289.1,236.0 Z" fill="#2a78d6"/>
+<text x="277.1" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q1</text>
+<path d="M305.3,236.0 L305.3,187.8 Q305.3,183.8 309.3,183.8 L325.3,183.8 Q329.3,183.8 329.3,187.8 L329.3,236.0 Z" fill="#2a78d6"/>
+<text x="317.3" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q2</text>
+<path d="M345.5,236.0 L345.5,193.3 Q345.5,189.3 349.5,189.3 L365.5,189.3 Q369.5,189.3 369.5,193.3 L369.5,236.0 Z" fill="#2a78d6"/>
+<text x="357.5" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q3</text>
+<path d="M385.7,236.0 L385.7,228.5 Q385.7,224.5 389.7,224.5 L405.7,224.5 Q409.7,224.5 409.7,228.5 L409.7,236.0 Z" fill="#2a78d6"/>
+<text x="397.7" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q4</text>
+<path d="M425.9,236.0 L425.9,227.1 Q425.9,223.1 429.9,223.1 L445.9,223.1 Q449.9,223.1 449.9,227.1 L449.9,236.0 Z" fill="#2a78d6"/>
+<text x="437.9" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q1</text>
+<path d="M466.1,236.0 L466.1,227.1 Q466.1,223.1 470.1,223.1 L486.1,223.1 Q490.1,223.1 490.1,227.1 L490.1,236.0 Z" fill="#2a78d6"/>
+<text x="478.1" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q2</text>
+<path d="M506.3,236.0 L506.3,216.8 Q506.3,212.8 510.3,212.8 L526.3,212.8 Q530.3,212.8 530.3,216.8 L530.3,236.0 Z" fill="#2a78d6"/>
+<text x="518.3" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q3</text>
+<path d="M546.5,236.0 L546.5,231.9 Q546.5,227.9 550.5,227.9 L566.5,227.9 Q570.5,227.9 570.5,231.9 L570.5,236.0 Z" fill="#2a78d6"/>
+<text x="558.5" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q4</text>
+<path d="M586.7,236.0 L586.7,202.1 Q586.7,198.1 590.7,198.1 L606.7,198.1 Q610.7,198.1 610.7,202.1 L610.7,236.0 Z" fill="#2a78d6"/>
+<text x="598.7" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q1</text>
+<path d="M626.9,236.0 L626.9,203.7 Q626.9,199.7 630.9,199.7 L646.9,199.7 Q650.9,199.7 650.9,203.7 L650.9,236.0 Z" fill="#2a78d6"/>
+<text x="638.9" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q2</text>
+<path d="M667.1,236.0 L667.1,206.4 Q667.1,202.4 671.1,202.4 L687.1,202.4 Q691.1,202.4 691.1,206.4 L691.1,236.0 Z" fill="#2a78d6"/>
+<text x="679.1" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q3</text>
+<path d="M707.3,236.0 L707.3,114.2 Q707.3,110.2 711.3,110.2 L727.3,110.2 Q731.3,110.2 731.3,114.2 L731.3,236.0 Z" fill="#2a78d6"/>
+<text x="719.3" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q4</text>
+<path d="M747.5,236.0 L747.5,107.8 Q747.5,103.8 751.5,103.8 L767.5,103.8 Q771.5,103.8 771.5,107.8 L771.5,236.0 Z" fill="#2a78d6"/>
+<text x="759.5" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q1</text>
+<path d="M787.7,236.0 L787.7,57.8 Q787.7,53.8 791.7,53.8 L807.7,53.8 Q811.7,53.8 811.7,57.8 L811.7,236.0 Z" fill="#2a78d6"/>
+<text x="799.7" y="46.8" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#59636e">792</text>
+<text x="799.7" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q2</text>
+<path d="M827.9,236.0 L827.9,227.1 Q827.9,223.1 831.9,223.1 L847.9,223.1 Q851.9,223.1 851.9,227.1 L851.9,236.0 Z" fill="#2a78d6"/>
+<text x="839.9" y="252" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="9" fill="#818b98">Q3*</text>
+<text x="76.1" y="270" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="11" fill="#59636e">2021</text>
+<text x="176.6" y="270" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="11" fill="#59636e">2022</text>
+<text x="337.4" y="270" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="11" fill="#59636e">2023</text>
+<text x="498.2" y="270" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="11" fill="#59636e">2024</text>
+<text x="659.0" y="270" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="11" fill="#59636e">2025</text>
+<text x="799.7" y="270" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="11" fill="#59636e">2026</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="170" viewBox="0 0 880 170" role="img" aria-label="Contribution streak statistics">
+<rect x="0.5" y="0.5" width="879" height="169" rx="6" fill="none" stroke="#d8dee4" stroke-width="1"/>
+<line x1="293.3" y1="30" x2="293.3" y2="140" stroke="#d8dee4" stroke-width="1"/>
+<line x1="586.7" y1="30" x2="586.7" y2="140" stroke="#d8dee4" stroke-width="1"/>
+<text x="146.7" y="76" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#1f2328">4,023</text>
+<text x="146.7" y="101" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#59636e">total contributions</text>
+<text x="146.7" y="121" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#818b98">since Dec 2, 2019</text>
+<text x="440.0" y="76" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#1f2328">14</text>
+<text x="440.0" y="101" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#59636e">days active · July</text>
+<text x="440.0" y="121" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#818b98">56 contributions this month</text>
+<text x="733.3" y="76" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#1f2328">28</text>
+<text x="733.3" y="101" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#59636e">longest streak · days</text>
+<text x="733.3" y="121" text-anchor="middle" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#818b98">Apr 4 to May 1, 2026</text>
+</svg>

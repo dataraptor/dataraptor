@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="170" viewBox="0 0 440 170" role="img" aria-label="Most used languages">
+<rect x="0.5" y="0.5" width="439" height="169" rx="6" fill="none" stroke="#30363d" stroke-width="1"/>
+<text x="24" y="30" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#9198a1">most used languages</text>
+<clipPath id="round"><rect x="24" y="44" width="392" height="12" rx="6.0"/></clipPath>
+<rect x="24.0" y="44" width="157.8" height="12" fill="#3572A5" clip-path="url(#round)"/>
+<rect x="183.8" y="44" width="69.0" height="12" fill="#198CE7" clip-path="url(#round)"/>
+<rect x="254.9" y="44" width="63.8" height="12" fill="#555555" clip-path="url(#round)"/>
+<rect x="320.7" y="44" width="40.2" height="12" fill="#f1e05a" clip-path="url(#round)"/>
+<rect x="362.9" y="44" width="19.2" height="12" fill="#e34c26" clip-path="url(#round)"/>
+<rect x="384.1" y="44" width="31.9" height="12" fill="#8b949e" clip-path="url(#round)"/>
+<circle cx="28" cy="80" r="4" fill="#3572A5"/>
+<text x="38" y="84" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="12" fill="#e6edf3">Python <tspan fill="#9198a1">41.3%</tspan></text>
+<circle cx="236" cy="80" r="4" fill="#198CE7"/>
+<text x="246" y="84" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="12" fill="#e6edf3">R <tspan fill="#9198a1">18.1%</tspan></text>
+<circle cx="28" cy="106" r="4" fill="#555555"/>
+<text x="38" y="110" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="12" fill="#e6edf3">C <tspan fill="#9198a1">16.7%</tspan></text>
+<circle cx="236" cy="106" r="4" fill="#f1e05a"/>
+<text x="246" y="110" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="12" fill="#e6edf3">JavaScript <tspan fill="#9198a1">10.5%</tspan></text>
+<circle cx="28" cy="132" r="4" fill="#e34c26"/>
+<text x="38" y="136" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="12" fill="#e6edf3">HTML <tspan fill="#9198a1">5.0%</tspan></text>
+<circle cx="236" cy="132" r="4" fill="#8b949e"/>
+<text x="246" y="136" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="12" fill="#e6edf3">Other <tspan fill="#9198a1">8.4%</tspan></text>
+</svg>
